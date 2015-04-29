@@ -30,7 +30,7 @@ At the top of any page you'd like to have bootstrap on add the following in the 
 Inspect the `app/assets/stylesheets/` directory in the `task_app` folder. What do you notice? **Hint** Read the contents of each of the files in the folder and follow any leads that they provide.
 
 ### Add custom classes and ids to some elements
-Try to get a feel for how SCSS works.
+Try to get a feel for how [SCSS](http://sass-lang.com/guide) works.
 
 ### Once you've got a feel for how `app/assets/stylesheets/` works. Add some custom styling to make your todo list look something like this.
 ![Part 2](./part2.png)
