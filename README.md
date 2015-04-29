@@ -5,6 +5,7 @@ To get started you'll need to
 2. `cd` into the directory
 3. run `git checkout master`
 4. bundle all of the gems 
+5. `rake db:create` and `rake db:migrate`
 
 ## Add bootstrap to your page by...
 At the top of any page you'd like to have bootstrap on add the following in the `head` of the document. For this lesson we'll be working in the `views/layouts/application.html.erb` file.
