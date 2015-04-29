@@ -33,3 +33,4 @@ Inspect the `app/assets/stylesheets/` directory in the `task_app` folder. What d
 Try to get a feel for how SCSS works.
 
 ### Once you've got a feel for how `app/assets/stylesheets/` works. Add some custom styling to make your todo list look something like this.
+![Part 2](./part2.png)
