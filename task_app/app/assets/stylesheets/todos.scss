@@ -1,3 +1,16 @@
 // Place all the styles related to the todos controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.description {
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-bottom: 1px solid #AAAAAA;
+}
+
+.todos {
+	border: 1px solid #AAAAAA;
+	border-radius: 5px;
+	background-color: #F3F3F3;
+	color: #000080;
+}
