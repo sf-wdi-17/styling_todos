@@ -3,22 +3,50 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Todos Index</title>
+
+<!-- ADD THESE TO THE TOP OF YOUR PAGE -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!-- end --> 
+
 </head>
+
 <body>
-	<h1><%= @author.name %></h1>
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-2">
+  	 <h1><%= @author.name %>'s Todos</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-2">
+
+    <%= form_for @todo do |f| %>
+
+      <%= f.text_field :description %>
+      <%= f.submit "save todo" %>
+
+    <% end %>
+
+    </div>
+  </div>
+
 	<% @todos.each do |todo| %>
+    <div class="row">
+      <div class="col-xs-8 col-xs-offset-2">
 
- 	   <div>
-    	    Description: <%= todo.description %>
-       </div>
+   	   <div>Description: <%= todo.description %></div>
 
+     </div>
+   </div>
 	<% end %>
 
-	<%= form_for :todo, url: "/authors/#{@author.id}/todos", method: "post" do |f| %>
-
-    <%= f.text_field :description %>
-    <%= f.submit "save todo" %>
-
-	<% end %>x
 </body>
 </html>

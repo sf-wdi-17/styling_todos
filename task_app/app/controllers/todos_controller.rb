@@ -2,6 +2,7 @@ class TodosController < ApplicationController
 	def index
 		@author = Author.find(params[:id])
 		@todos = @author.todos
+		@todo = Todo.new
 	end
 
 	def create
