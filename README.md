@@ -2,8 +2,8 @@
 To get started you'll need to
 
 1. clone the [extended todos app](git@github.com:sf-wdi-17/extended_todos.git).
-2. run `git checkout master`
-3. `cd` into the directory
+2. `cd` into the directory
+3. run `git checkout master`
 4. bundle all of the gems 
 
 ## Add bootstrap to your page by...
