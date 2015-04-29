@@ -2,8 +2,9 @@
 To get started you'll need to
 
 1. clone the [extended todos app](git@github.com:sf-wdi-17/extended_todos.git).
-2. `cd` into the directory
-3. bundle all of the gems 
+2. run `git checkout master`
+3. `cd` into the directory
+4. bundle all of the gems 
 
 ## Add bootstrap to your page by...
 At the top of any page you'd like to have bootstrap on add the following in the `head` of the document. For this lesson we'll be working in the `views/layouts/application.html.erb` file.
