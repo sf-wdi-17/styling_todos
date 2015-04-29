@@ -6,7 +6,7 @@ To get started you'll need to
 3. bundle all of the gems 
 
 ## Add bootstrap to your page by...
-At the top of any page you'd like to have bootstrap on add the following in the `head` of the document. For this lesson we'll be working in the `todos/index.html.erb` file.
+At the top of any page you'd like to have bootstrap on add the following in the `head` of the document. For this lesson we'll be working in the `views/layouts/application.html.erb` file.
 
 ```html
 <!-- ADD THESE TO THE TOP OF YOUR PAGE -->

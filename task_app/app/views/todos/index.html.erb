@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Todos Index</title>
-</head>
-<body>
+
 	<h1><%= @author.name %></h1>
 	<% @todos.each do |todo| %>
 
@@ -19,6 +13,4 @@
     <%= f.text_field :description %>
     <%= f.submit "save todo" %>
 
-	<% end %>x
-</body>
-</html>
+	<% end %>
