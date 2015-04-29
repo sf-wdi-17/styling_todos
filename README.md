@@ -34,3 +34,5 @@ Try to get a feel for how [SCSS](http://sass-lang.com/guide) works.
 
 ### Once you've got a feel for how `app/assets/stylesheets/` works. Add some custom styling to make your todo list look something like this.
 ![Part 2](./part2.png)
+
+**Bonus:** Checkout [how to add classes and id's with form helpers](http://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html)
